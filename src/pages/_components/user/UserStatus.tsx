@@ -153,6 +153,15 @@ const UserStatus = ({ hideLinks = { userCenter: false, myFavorite: false } }) =>
         </Modal>
       </>
     );
-  } 
+  } else {
+    return (
+      <>
+        <Modal open={open} footer={null} onCancel={() => setOpen(false)}>
+          <LoginComponent />
+        </Modal>
+      </>
+    );
+  }
 };
+
 export default UserStatus;
