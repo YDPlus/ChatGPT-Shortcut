@@ -154,5 +154,5 @@ const UserStatus = ({ hideLinks = { userCenter: false, myFavorite: false } }) =>
       </>
     );
   } 
-
+};
 export default UserStatus;
