@@ -127,6 +127,9 @@ const config = {
             "prompt,aishort,ChatGPT Shortcut,ChatGPT SC,ChatGPT,AI prompts，提示词",
         },
       ],
+      navbar: {
+        hideOnScroll: true,
+      },      
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
