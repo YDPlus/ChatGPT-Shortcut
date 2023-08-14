@@ -51,7 +51,7 @@ const TITLE = translate({
 });
 
 const DESCRIPTION = translate({
-  message: "",
+  message: "让生产力加倍的 ChatGPT 快捷指令",
 });
 
 type UserState = {
