@@ -50,6 +50,10 @@ const TITLE = translate({
     "ChatGPT Prompt",
 });
 
+const DESCRIPTION = translate({
+  message: "",
+});
+
 type UserState = {
   scrollTopPosition: number;
   focusedElementId: string | undefined;
