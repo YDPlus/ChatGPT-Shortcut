@@ -131,7 +131,10 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true
+      },
       /* announcementBar: {
         id: 'announcement_bar',
         content: getAnnouncement(),
