@@ -50,6 +50,10 @@ const TITLE = translate({
     "ChatGPT Prompt",
 });
 
+const DESCRIPTION = translate({
+  message: "让生产力加倍的 ChatGPT 提示词",
+});
+
 type UserState = {
   scrollTopPosition: number;
   focusedElementId: string | undefined;
