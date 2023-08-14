@@ -49,9 +49,6 @@ const TITLE = translate({
   message:
     "ChatGPT Prompt",
 });
-const DESCRIPTION = translate({
-  message: "让生产力加倍的 ChatGPT 快捷指令",
-});
 
 type UserState = {
   scrollTopPosition: number;
